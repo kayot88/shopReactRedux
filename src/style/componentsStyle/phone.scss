@@ -1,0 +1,39 @@
+.thumbnail {
+  overflow: hidden;
+  border: none;
+  &-img {
+    display: inline-block !important;
+  }
+  &-caption-full {
+    padding: 9px;
+    color: #333;
+  }
+  .name {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+  }
+  .pull-right {
+    padding: 0 5px;
+    color: #000;
+    font-weight: 700;
+  }
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  .ab-details-title {
+    line-height: 55px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: #777;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  }
+  .ab-details-info {
+    font-size: 1em;
+    line-height: 50px;
+    color: #666;
+    text-transform: uppercase;
+  }
+}
