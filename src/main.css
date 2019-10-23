@@ -277,7 +277,7 @@
     border-bottom: none !important;
 }
 .bt-change-cart span.glyphicon{
-    cursor: pointer;
+    cursor: pointer; 
 }
 .x-change{
     margin-right: 5px;
