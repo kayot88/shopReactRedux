@@ -1,0 +1,29 @@
+.delete-cart {
+  background: url(/images/trash_16x16.gif) no-repeat 0 0;
+  display: block;
+  height: 16px;
+  width: 16px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+table {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.basket-img {
+  height: 100px;
+  border: none;
+}
+.table-bordered {
+  border-collapse: separate;
+  border-radius: 4px;
+}
+.item-checout .first-column-checkout {
+  width: 12%;
+}
+.total-user-checkout{
+    margin-right: 20px;
+    margin-top: 15px;
+}
